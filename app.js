@@ -40,7 +40,7 @@ app.use(hpp());
 
 // Enable CORS
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'https://expense-tracker-frontend-omega-ten.vercel.app',
+  origin: "*",
   credentials: true
 }));
 
